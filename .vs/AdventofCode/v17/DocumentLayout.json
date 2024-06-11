@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\",
+  "WorkspaceRootPath": "C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{85414AB8-DEDD-4A82-B3D6-045BF5A3CEDA}|Day_5\\Day_5.vcxproj|C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\starting_stacks.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{85414AB8-DEDD-4A82-B3D6-045BF5A3CEDA}|Day_5\\Day_5.vcxproj|solutionrelative:Day_5\\starting_stacks.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{160D40AF-7221-48F5-80F7-1EB6FBD2F686}|Day_2\\Day_2.vcxproj|C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{160D40AF-7221-48F5-80F7-1EB6FBD2F686}|Day_2\\Day_2.vcxproj|solutionrelative:Day_2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85414AB8-DEDD-4A82-B3D6-045BF5A3CEDA}|Day_5\\Day_5.vcxproj|C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\movement.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{85414AB8-DEDD-4A82-B3D6-045BF5A3CEDA}|Day_5\\Day_5.vcxproj|solutionrelative:Day_5\\movement.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{160D40AF-7221-48F5-80F7-1EB6FBD2F686}|Day_2\\Day_2.vcxproj|C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\InputReader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{160D40AF-7221-48F5-80F7-1EB6FBD2F686}|Day_2\\Day_2.vcxproj|solutionrelative:Day_2\\InputReader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{85414AB8-DEDD-4A82-B3D6-045BF5A3CEDA}|Day_5\\Day_5.vcxproj|C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{85414AB8-DEDD-4A82-B3D6-045BF5A3CEDA}|Day_5\\Day_5.vcxproj|solutionrelative:Day_5\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{160D40AF-7221-48F5-80F7-1EB6FBD2F686}|Day_2\\Day_2.vcxproj|C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\InputReader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{160D40AF-7221-48F5-80F7-1EB6FBD2F686}|Day_2\\Day_2.vcxproj|solutionrelative:Day_2\\InputReader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +26,41 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\main.cpp",
+              "RelativeDocumentMoniker": "Day_2\\main.cpp",
+              "ToolTip": "C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\main.cpp",
+              "RelativeToolTip": "Day_2\\main.cpp",
+              "ViewState": "AQIAAHQAAAAAAAAAAAAuwIkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-11T11:12:31.291Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "movement.txt",
-              "DocumentMoniker": "C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\movement.txt",
-              "RelativeDocumentMoniker": "Day_5\\movement.txt",
-              "ToolTip": "C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\movement.txt",
-              "RelativeToolTip": "Day_5\\movement.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-30T14:17:13.393Z",
+              "Title": "InputReader.cpp",
+              "DocumentMoniker": "C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\InputReader.cpp",
+              "RelativeDocumentMoniker": "Day_2\\InputReader.cpp",
+              "ToolTip": "C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\InputReader.cpp",
+              "RelativeToolTip": "Day_2\\InputReader.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-11T11:12:15.756Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\main.cpp",
-              "RelativeDocumentMoniker": "Day_5\\main.cpp",
-              "ToolTip": "C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\main.cpp",
-              "RelativeToolTip": "Day_5\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEEAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-04-30T09:50:22.866Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "starting_stacks.txt",
-              "DocumentMoniker": "C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\starting_stacks.txt",
-              "RelativeDocumentMoniker": "Day_5\\starting_stacks.txt",
-              "ToolTip": "C:\\Users\\lbulles\\source\\repos\\DesignPatterns\\AdventofCode\\Day_5\\starting_stacks.txt",
-              "RelativeToolTip": "Day_5\\starting_stacks.txt",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-04-30T14:17:25.973Z",
+              "Title": "InputReader.h",
+              "DocumentMoniker": "C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\InputReader.h",
+              "RelativeDocumentMoniker": "Day_2\\InputReader.h",
+              "ToolTip": "C:\\Users\\lbulles\\source\\repos\\GitHub\\advent_of_code_2022_cpp\\Day_2\\InputReader.h",
+              "RelativeToolTip": "Day_2\\InputReader.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-11T11:11:39.671Z",
               "EditorCaption": ""
             }
           ]

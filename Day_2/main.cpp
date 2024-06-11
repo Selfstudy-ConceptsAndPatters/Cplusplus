@@ -1,8 +1,8 @@
 #include <iostream>
-#include <fstream>
 #include <vector>
 #include <string>
-
+#include "InputReader.h"
+//before optimization: 150+ lines
 
 //first is opponent, third is own response
 // opponent choices: A = rock, B = paper, C = scissors
@@ -10,25 +10,6 @@
 
 //points: 6 = win, 3 = tie, 0 = lose
 //points rock = 1, paper = 2, scissors = 3
-
-std::vector<std::string> file_input_part_one() {
-	std::ifstream in_file;
-	std::vector<std::string> tournament;
-	std::string line;
-
-	in_file.open("input.txt");
-	if (!in_file) {
-		std::cerr << "Problem opening file" << std::endl;
-		return tournament;
-	}
-
-	while (std::getline(in_file, line)) {
-		if (!line.empty()) {
-			tournament.push_back(line);
-		}
-	}
-	return tournament;
-}
 
 int tournament_result_calculation(std::vector<std::string> file) {
 	int points = 0;
@@ -146,7 +127,12 @@ int part_two_result_calculation(std::vector<std::string> file) {
 
 
 int main() {
-	std::cout << "Result of part one: " << tournament_result_calculation(file_input_part_one()) << std::endl;
-	std::cout << "Result of part two: " << part_two_result_calculation(file_input_part_one()) << std::endl;
+	InputReader input;
+	std::vector<std::string> result = input.file_input();
+	std::cout << "Result of part one: " << tournament_result_calculation(result) << std::endl;
+	std::cout << "Result of part two: " << part_two_result_calculation(result) << std::endl;
+	std::cout << "-------------------------------------------------Optimized-------------------------------------------------" << std::endl;
+	std::cout << "Result of part one: " << tournament_result_calculation(result) << std::endl;
+	std::cout << "Result of part two: " << part_two_result_calculation(result) << std::endl;
 	return 0;
 }
