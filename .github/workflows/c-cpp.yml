@@ -1,10 +1,14 @@
-name: C++ CI
+name: Day_1 CI
 
 on:
   push:
     branches: [ '*' ]
+    paths:
+    - 'Day_1/**'
   pull_request:
     branches: [ '*' ]
+    paths:
+    - 'Day_1/**'
 
 jobs:
   build:
