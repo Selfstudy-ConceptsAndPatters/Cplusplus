@@ -24,7 +24,6 @@ std::vector<std::string> input_reader(std::string fileName) {
 	return input;
 }
 
-
 //Method to convert movements txt content to only contain numbers
 //...amount...location...destination
 void movement_implementation(std::vector<std::string> movements) {
