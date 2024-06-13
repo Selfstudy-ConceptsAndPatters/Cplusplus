@@ -27,12 +27,18 @@
     <ClCompile Include="CalculationAlgorithms.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ProgramStart.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="InputReader.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CalculationAlgorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramStart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

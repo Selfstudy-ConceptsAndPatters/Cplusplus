@@ -1,8 +1,5 @@
 #include <iostream>
-#include <vector>
-#include <string>
-#include "InputReader.h"
-#include "CalculationAlgorithms.h"
+#include "ProgramStart.h"
 //before optimization: 150+ lines
 
 //first is opponent, third is own response
@@ -16,15 +13,7 @@
 //X == lose, Y == tie, Z == win
 
 int main() {
-	InputReader input;
-	std::vector<std::string> result = input.file_input();
-	CalculationAlgorithms calalgo;
-	int part_one_result = calalgo.part_one_algorithm(result);
-	int part_two_result = calalgo.part_two_algorithm(result);
-	std::cout << "Result of part one: " << part_one_result << std::endl;
-	std::cout << "Result of part two: " << part_two_result << std::endl;
-	std::cout << "-------------------------------------------------Optimized-------------------------------------------------" << std::endl;
-	std::cout << "Result of part one: " << calalgo.part_one_algorithm(result) << std::endl;
-	std::cout << "Result of part two: " << part_two_result << std::endl;
+	ProgramStart program;
+	program.application();
 	return 0;
 }
