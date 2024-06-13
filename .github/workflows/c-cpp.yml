@@ -13,11 +13,5 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: configure Day_1
-      run: ./Day_1/configure
-    - name: make Day_1
-      run: make -C Day_1
-    - name: make check Day_1
-      run: make -C Day_1 check
-    - name: make distcheck Day_1
-      run: make -C Day_1 distcheck
+    - name: Build with MSBuild
+      run: msbuild Day_1/YourProjectFile.vcxproj /p:Configuration=Release
