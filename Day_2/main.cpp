@@ -11,7 +11,6 @@
 
 //Part two:
 //X == lose, Y == tie, Z == win
-
 int main() {
 	ProgramStart program;
 	program.application();
