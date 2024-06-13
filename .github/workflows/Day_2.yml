@@ -1,0 +1,23 @@
+name: Day_2 CI
+
+on:
+  push:
+    branches: [ '*' ]
+    paths:
+    - 'Day_2/**'
+  pull_request:
+    branches: [ '*' ]
+    paths:
+    - 'Day_2/**'
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.0.2
+    - name: Build with MSBuild
+      run: msbuild Day_2/Day_2.vcxproj /p:Configuration=Release
