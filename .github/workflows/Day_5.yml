@@ -1,0 +1,23 @@
+name: Day_5 CI
+
+on:
+  push:
+    branches: [ '*' ]
+    paths:
+    - 'Day_5/**'
+  pull_request:
+    branches: [ '*' ]
+    paths:
+    - 'Day_5/**'
+
+jobs:
+  build:
+
+    runs-on: windows-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup MSBuild
+      uses: microsoft/setup-msbuild@v1.0.2
+    - name: Build with MSBuild
+      run: msbuild Day_5/Day_5.vcxproj /p:Configuration=Release
