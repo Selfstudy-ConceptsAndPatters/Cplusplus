@@ -4,11 +4,11 @@ on:
   push:
     branches: [ '*' ]
     paths:
-    - './Day_1/**'
+    - '../Day_1/**'
   pull_request:
     branches: [ '*' ]
     paths:
-    - './Day_1/**'
+    - '../Day_1/**'
 
 jobs:
   build:
