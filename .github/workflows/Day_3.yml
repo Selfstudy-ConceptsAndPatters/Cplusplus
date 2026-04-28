@@ -2,22 +2,43 @@ name: Day_3 CI
 
 on:
   push:
-    branches: [ '*' ]
+    branches:
+      - main
+      - develop
     paths:
-    - 'Day_3/**'
+      - 'Day_3/**'
+      - '.github/workflows/Day_3.yml'
   pull_request:
-    branches: [ '*' ]
+    branches:
+      - main
+      - develop
     paths:
-    - 'Day_3/**'
+      - 'Day_3/**'
+  workflow_dispatch:
 
 jobs:
   build:
-
     runs-on: windows-latest
-
+    
+    strategy:
+      matrix:
+        configuration: [Debug, Release]
+    
     steps:
-    - uses: actions/checkout@v4
-    - name: Setup MSBuild
-      uses: microsoft/setup-msbuild@v1.0.2
-    - name: Build with MSBuild
-      run: msbuild AdventofCode.sln /p:Configuration=Release /p:Platform=x64
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v3
+        with:
+          msbuild-architecture: x64
+      
+      - name: Build with MSBuild
+        run: msbuild AdventofCode.sln /p:Configuration=${{ matrix.configuration }} /p:Platform=x64 /v:minimal
+      
+      - name: Upload build artifacts
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifacts-${{ matrix.configuration }}
+          path: bin/
