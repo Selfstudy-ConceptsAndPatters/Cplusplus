@@ -2,12 +2,6 @@ name: Day_1 CI
 
 on:
   push:
-    branches:
-      - main
-      - develop
-    paths:
-      - 'Day_1/**'
-      - '.github/workflows/c-cpp.yml'
   pull_request:
     branches:
       - main
